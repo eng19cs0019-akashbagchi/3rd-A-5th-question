@@ -15,6 +15,7 @@ Consider the input:
 
 
 For the same, we get the output:
+
 {2: 3}
 
 [[1, 4], [3, 5]]
