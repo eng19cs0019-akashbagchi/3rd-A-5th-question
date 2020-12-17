@@ -2,15 +2,23 @@
 
 Consider the input:
 2
+
 1 2
+
 2 3
+
 2
+
 1 4
+
 3 5
+
 
 For the same, we get the output:
 {2: 3}
+
 [[1, 4], [3, 5]]
+
 {1: [2, 4]}
 
 As we can see, the program is not adding the values (k, v2) to data1, when there doesn't exist any key-value pair with key k in data1.
@@ -63,42 +71,72 @@ We modify the same to:
 ```
 
 ,leaving the rest of the code as it is.
+
 Thus now we can use the same inputs as in (A) and observe correct output:
 
 2
+
 1 2
+
 2 3
+
 2
+
 1 4
+
 3 5
+
 {2: 3, 3: 5}
+
 [[1, 4], [3, 5]]
+
 {1: [2, 4]}
+
 
 ## Ans 5(c):
 
 ### Test case 1:
+
 2
+
 1 2
+
 2 3
+
 2
+
 1 4
+
 3 5
 
 ### Test case 2:
+
 3
+
 1 4
+
 2 3
+
 3 1
+
 3
+
 1 1
+
 2 4
+
 3 5
 
 ### Test case 3:
+
 2
+
 3 6
+
 4 2
+
 2
+
 3 1
+
 4 2
